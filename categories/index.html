@@ -74,6 +74,25 @@
 </section>
     <!-- 欧尼酱功能, 谁用谁知道 -->
     
+    <div class="gal-menu gal-dropdown">
+    <div class="circle" id="gal">
+        <div class="ring">
+            <a href="https://reimia.github.io" class="menuItem" style="left: 50%; top: 15%;">首页</a>
+            
+            <a class="menuItem" style="left: 80.3109%; top: 32.5%;">下一页</a>
+            
+            <a href="/archives" class="menuItem" style="left: 80.3109%; top: 67.5%;">归档</a>
+            <a href="/about" class="menuItem" style="left: 50%; top: 85%;">关于</a>
+            <a href="/message" class="menuItem" style="left: 19.6891%; top: 67.5%;">留言板</a>
+
+            
+            <a class="menuItem" style="left: 19.6891%; top: 32.5%;">上一页</a>
+            
+        </div>
+        <audio id="audio" src="/imgs/oni.mp3"></audio>
+    </div>
+</div>
+    
     <header class="navbar navbar-inverse" id="gal-header">
     <div class="container">
         <div class="navbar-header">
@@ -130,10 +149,30 @@
                 
                 
                 
-                <li class="">
-                    <a href="/tags">
+                <li class="dropdown">
+                    <!-- TODO 添加hover dropdown效果 -->
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false" data-hover="dropdown">
                         <i class="fa fa-tags"></i>标签
                     </a>
+                    <ul class="dropdown-menu">
+                        
+                        
+                        <li>
+                            <a href="/tags/mdzz/">mdzz</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/gal/">gal</a>
+                        </li>
+                        
+                        <li>
+                            <a href="/tags/%E6%95%99%E7%A8%8B/">教程</a>
+                        </li>
+                        
+                        
+                        
+                    </ul>
                 </li>
                 
                 
@@ -248,7 +287,19 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/12/30/hello-world/">Hello World</a>
+                    <a href="/posts/a8a0c3de/">果然每个无聊的产物都应该有一个教程</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/posts/3b0f5baa/">金恋</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/posts/4a17b156/">Hello World</a>
                 </span>
             </li>
             
@@ -270,7 +321,19 @@
             
             <li class="list-group-item">
                 <span class="post-title">
-                    <a href="/2019/12/30/hello-world/">Hello World</a>
+                    <a href="/posts/4a17b156/">Hello World</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/posts/3b0f5baa/">金恋</a>
+                </span>
+            </li>
+            
+            <li class="list-group-item">
+                <span class="post-title">
+                    <a href="/posts/a8a0c3de/">果然每个无聊的产物都应该有一个教程</a>
                 </span>
             </li>
             
@@ -303,6 +366,12 @@
                 
                 <div class="cloud-tags tab-pane nav bs-sidenav fade" id="sidebar-tags">
     
+    <a href="/tags/mdzz/" style="font-size: 16.013339723322296px;" class="tag-cloud-link">mdzz</a>
+    
+    <a href="/tags/gal/" style="font-size: 19.155278471340484px;" class="tag-cloud-link">gal</a>
+    
+    <a href="/tags/%E6%95%99%E7%A8%8B/" style="font-size: 16.224349367323086px;" class="tag-cloud-link">教程</a>
+    
 </div>
                 
                 
@@ -326,15 +395,11 @@
                 <div class="links tab-pane nav bs-sidenav fade" id="sidebar-links">
     
     <li>
-        <a href="https://github.com/ZEROKISEKI/" target="_blank">Github</a>
+        <a href="https://github.com/Reimia" target="_blank">Github</a>
     </li>
     
     <li>
-        <a href="https://coding.net/u/SORA1" target="_blank">Coding</a>
-    </li>
-    
-    <li>
-        <a href="https://www.zhihu.com/people/aonosora/activities" target="_blank">知乎</a>
+        <a href="https://steamcommunity.com/id/mdzz173" target="_blank">Steam</a>
     </li>
     
 </div>
@@ -410,6 +475,10 @@
 
 <script src="/js/hs.js"></script>
 <script src="/js/blog.js"></script>
+
+
+
+<script src="/js/oni.js"></script>
 
 
 
